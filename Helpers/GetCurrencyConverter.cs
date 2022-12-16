@@ -1,5 +1,5 @@
 using RestSharp;
-using RestSharp.Portable;
+
 using SpecFlowProjectCoinMarketCap.Config;
 using IRestResponse = RestSharp.IRestResponse;
 using Method = RestSharp.Method;
