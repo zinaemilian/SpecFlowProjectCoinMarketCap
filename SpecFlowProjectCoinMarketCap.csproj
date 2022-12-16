@@ -7,16 +7,31 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Using Include="TechTalk.SpecFlow"/>
+        <Using Include="TechTalk.SpecFlow" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0"/>
-        <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57"/>
-        <PackageReference Include="SpecFlow.NUnit" Version="3.9.22"/>
-        <PackageReference Include="nunit" Version="3.13.2"/>
-        <PackageReference Include="NUnit3TestAdapter" Version="4.1.0"/>
-        <PackageReference Include="FluentAssertions" Version="6.2.0"/>
+        <PackageReference Include="FubarCoder.RestSharp.Portable.Core" Version="4.0.8" />
+        <PackageReference Include="FubarCoder.RestSharp.Portable.HttpClient" Version="4.0.8" />
+        <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.9" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="7.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="7.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
+        <PackageReference Include="RestSharp" Version="105.2.3" />
+        <PackageReference Include="RestSharpSigned" Version="105.2.3" />
+        <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
+        <PackageReference Include="SpecFlow.NUnit" Version="3.9.22" />
+        <PackageReference Include="nunit" Version="3.13.3" />
+        <PackageReference Include="NUnit3TestAdapter" Version="4.3.1" />
+        <PackageReference Include="FluentAssertions" Version="6.2.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Models" />
+      <Folder Include="Runners" />
     </ItemGroup>
 
 </Project>
