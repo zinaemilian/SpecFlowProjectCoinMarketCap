@@ -10,4 +10,3 @@ This feature deals with the cryptocurrency or fiat currency conversion functiona
 		  | amount   | coinMarketId | currencyCode |
 		  | 10000000 | 3541         | GBP          |
 
-	Then the result should be 120
