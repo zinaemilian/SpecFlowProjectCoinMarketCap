@@ -6,6 +6,5 @@ namespace SpecFlowProjectCoinMarketCap.Hooks
     [Binding]
     public class Hooks
     {
-        
     }
 }
